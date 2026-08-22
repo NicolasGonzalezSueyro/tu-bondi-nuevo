@@ -1,0 +1,26 @@
+{
+  "name": "tu-bondi-whatsapp",
+  "version": "2.0.0",
+  "description": "Bot de WhatsApp (personal, sin Meta) para consultar en tiempo real la ubicacion y ETA de colectivos de Tu Bondi (Cordoba)",
+  "main": "src/whatsappBot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/whatsappBot.js",
+    "dev": "node --watch src/whatsappBot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "puppeteer-core": "^25.8.0",
+    "@whiskeysockets/baileys": "^6.7.16",
+    "mongo-baileys": "^1.0.1",
+    "mongodb": "^6.8.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^9.4.0",
+    "uuid": "^9.0.1"
+  }
+}
